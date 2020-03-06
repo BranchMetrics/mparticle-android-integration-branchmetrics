@@ -1,23 +1,3 @@
-## Branch Kit Integration
+## Branch SDK Documentation for mParticle Android
 
-This repository contains the [Branch](https://www.branch.io/) integration for the [mParticle Android SDK](https://github.com/mParticle/mparticle-android-sdk).
-
-### Adding the integration
-
-1. Add the kit dependency to your app's build.gradle:
-
-    ```groovy
-    dependencies {
-        compile 'com.mparticle:android-branch-kit:5+'
-    }
-    ```
-2. Follow the mParticle Android SDK [quick-start](https://github.com/mParticle/mparticle-android-sdk), then rebuild and launch your app, and verify that you see `"Branch Metrics detected"` in the output of `adb logcat`.
-3. Reference mParticle's integration docs below to enable the integration.
-
-### Documentation
-
-[Branch integration](http://docs.mparticle.com/?java#branch-metrics)
-
-### License
-
-[Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+View [Branch's SDK documentation for mParticle Android](https://help.branch.io/developers-hub/docs/mparticle-android)
